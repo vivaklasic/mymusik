@@ -1,0 +1,13 @@
+{
+  "headers": [
+    {
+      "source": "/(.*).(mp3|wav|ogg)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    }
+  ]
+}
